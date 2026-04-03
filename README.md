@@ -1,11 +1,11 @@
-# LLM-Based Review Reliability Analysis
+# Design and Evaluation of an LLM-Based Review Reliability System
 
 ## Executive Summary
-This project analyses the reliability of online product reviews in an e-commerce context, focusing on mismatches between star ratings and review text.  
+This project designs and evaluates an LLM-based system to assess the reliability of online product reviews in an e-commerce context, with a focus on mismatches between star ratings and review text.
 
-The dataset contains over 500,000 Amazon reviews, but due to computational constraints and API cost limits, it is first reduced to 10,000 observations and then a balanced sample of 100 reviews is used for LLM evaluation.  
+The dataset contains over 500,000 Amazon reviews. Due to computational constraints and API cost limitations, it is first reduced to 10,000 observations, followed by a balanced sample of 100 reviews for LLM-based evaluation.
 
-Results show that LLMs can effectively detect sentiment and inconsistencies, but also highlight that rating systems themselves are not always reliable indicators of true customer opinion.
+Results show that the system can effectively detect sentiment and inconsistencies, but also reveal a key issue: rating systems themselves are not always reliable indicators of true customer opinion.
 
 ---
 
